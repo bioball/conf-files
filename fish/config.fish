@@ -21,14 +21,6 @@ set -x GOPATH ~/code/go
 set -x NVM_DIR ~/.nvm
 set -x NODE_PATH (npm config get prefix)/lib/node_modules
 
-### SECRETS
-
-set -x AWS_ACCESS_KEY AKIAJK3EJWQP5Q4VRBYQ
-set -x AWS_ACCESS_KEY_ID AKIAJK3EJWQP5Q4VRBYQ
-set -x AWS_SECRET_ACCESS_KEY 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
-set -x SAUCE_USERNAME ws-team
-set -x SAUCE_ACCESS_KEY 1910af2b-1b15-486b-95f5-0f5013c8fcd5
-
 
 ### FUNCTIONS
 
